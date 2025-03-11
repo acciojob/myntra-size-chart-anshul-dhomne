@@ -1,16 +1,92 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Chart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            background-color: white;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f8f8;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        caption {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <table>
+        <caption>Size Chart</caption>
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Chest (in cm)</th>
+                <th>Waist (in cm)</th>
+                <th>Hip (in cm)</th>
+                <th>Inseam (in cm)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>S</td>
+                <td>91-96</td>
+                <td>76-81</td>
+                <td>91-96</td>
+                <td>76-81</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>96-101</td>
+                <td>81-86</td>
+                <td>96-101</td>
+                <td>81-86</td>
+            </tr>
+            <tr>
+                <td>L</td>
+                <td>101-106</td>
+                <td>86-91</td>
+                <td>101-106</td>
+                <td>86-91</td>
+            </tr>
+            <tr>
+                <td>XL</td>
+                <td>106-111</td>
+                <td>91-96</td>
+                <td>106-111</td>
+                <td>91-96</td>
+            </tr>
+            <tr>
+                <td>XXL</td>
+                <td>111-116</td>
+                <td>96-101</td>
+                <td>111-116</td>
+                <td>96-101</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
-
 </html>
