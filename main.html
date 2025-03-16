@@ -1,57 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Size Chart</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
         table {
-            width: 100%;
+            width: 50%;
             border-collapse: collapse;
-            margin: 0 auto;
-            background-color: white;
-        }
-        #row{
-            background-color: rgb(215, 53, 53);
-        }
-        th,
-        td {
-            padding: 12px;
+            margin: 20px 0;
+            font-size: 18px;
             text-align: center;
-            border: 1px solid #ddd;
         }
-
-        th {
-            background-color: #f8f8f8;
-            font-weight: bold;
+        thead th {
+            background-color: #b33b3b;
+            color: white;
+            padding: 10px;
         }
-
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
+        tbody td {
+            padding: 8px;
         }
-
-        caption {
-            font-size: 24px;
-            margin-bottom: 10px;
-            font-weight: bold;
+        tbody tr:nth-child(odd) {
+            background-color: #f5f5f5;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #e0e0e0;
+        }
+        th, td {
+            border: 1px solid black;
         }
     </style>
 </head>
-
 <body>
 
     <table>
-        <caption>Size Chart</caption>
-        <thead >
-            <tr >
+        <thead>
+            <tr>
                 <th>Part</th>
                 <th>XS</th>
                 <th>S</th>
@@ -80,14 +64,13 @@
             <tr>
                 <td>Sleeve</td>
                 <td>23</td>
-                <td>23</td>
                 <td>24</td>
                 <td>24</td>
+                <td>25</td>
                 <td>25</td>
             </tr>
         </tbody>
     </table>
 
 </body>
-
 </html>
